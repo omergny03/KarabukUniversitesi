@@ -4,21 +4,19 @@
 
 int topla(int sayi)
 {
-  int sonuc;
     if(sayi==1)
     {
         return 1;
     }
     else
     {
-     sonuc=sayi+topla(sayi-1);
-     return sonuc;
+     return sayi+topla(sayi-1);
 
 
     }
 }
 
-int main1()
+int main()
 {
 int n;
 printf("bir sayi giriniz:");

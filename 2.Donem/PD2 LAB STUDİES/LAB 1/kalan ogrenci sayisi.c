@@ -2,29 +2,26 @@
 #include <stdlib.h>
 #define SIZE 100
 
-int hesapla(int,int);
+int hesapla(int,int,float *);
 
-int main1()
+int main()
 {
  int ogrenciSayisi,gnotu;
-
+ float ort=0.0;
  printf("lutfen ogrenci sayisini giriniz:");
  scanf("%d",&ogrenciSayisi);
  printf("lutfen gecme notunu giriniz:");
  scanf("%d",&gnotu);
-
-printf("kalan ogrenci sayisi:%d", hesapla(ogrenciSayisi,gnotu));
-    return 0;
+ printf("kalan ogrenci sayisi:%d\n", hesapla(ogrenciSayisi,gnotu,&ort));
+ printf("ortalama = %.2f",ort);    
+	return 0;
 }
 
-
-int hesapla(int sayi,int not)
+int hesapla(int sayi,int not,float *p)
 {
   int notlar[SIZE];
   int i;
   int sum=0,kaldi=0;
-  float ort;
-
 
   for(i=0;i<sayi;i++)
    {
@@ -38,10 +35,8 @@ int hesapla(int sayi,int not)
    }
 
    }
-
-   ort=(float)sum/sayi;
-   printf("ortalama=%.2f\n",ort);
-
+   *p=(float)sum/sayi;
+ 
  return kaldi;
 }
 

@@ -13,13 +13,10 @@ static int toplam=0;
    basamakTopla(x);
 
   return toplam;
- //return x%10 + basamakTopla(x/10);
  }
 
 return 0;
 }
-
-
 
 int main()
 {

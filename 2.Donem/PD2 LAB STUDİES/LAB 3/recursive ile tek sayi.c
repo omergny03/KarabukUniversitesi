@@ -35,16 +35,12 @@ int dizi[N],i,n;
 
 printf("dizinin eleman sayisini giriniz:");
 scanf("%d",&n);
-
 for(i=0;i<n;i++)
   {
       printf("dizi[%d]=",i);
       scanf("%d",&dizi[i]);
   }
-
 printf("%d adet tek sayi var",tekSayi(dizi,n));
-
-
 
    return 0;
 }
