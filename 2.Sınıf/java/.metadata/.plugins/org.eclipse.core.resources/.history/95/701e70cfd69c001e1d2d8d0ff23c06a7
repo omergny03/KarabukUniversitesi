@@ -1,0 +1,23 @@
+package Soru;
+
+public class MyList<T> {
+
+	Object[] array;
+
+	public MyList() {
+		this.array = new Object[10];
+	}
+
+	public MyList(int capacity) {
+		this.array = new Object[capacity];
+	}
+
+	public void add(T obj) {
+		int i = 0;
+		while (array[i] != null) {
+			i++;
+		}
+		array[i] = obj;
+	}
+
+}

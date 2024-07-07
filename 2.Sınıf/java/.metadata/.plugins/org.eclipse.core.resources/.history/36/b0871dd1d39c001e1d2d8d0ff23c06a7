@@ -1,0 +1,10 @@
+package Soru;
+
+public class MyList<T> {
+
+	x[] array;
+
+	public MyList() {
+		this.array = new x[10];
+	}
+}

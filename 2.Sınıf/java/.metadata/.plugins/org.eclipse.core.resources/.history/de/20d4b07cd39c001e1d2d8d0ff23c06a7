@@ -1,0 +1,11 @@
+package Soru;
+
+public class MyList<T> {
+
+	T[] array;
+	int[] dizi;
+
+	public MyList() {
+		this.array = new T[10];
+	}
+}

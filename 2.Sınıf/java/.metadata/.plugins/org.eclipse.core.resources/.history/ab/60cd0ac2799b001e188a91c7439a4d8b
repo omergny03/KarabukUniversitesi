@@ -1,0 +1,15 @@
+package Generic_3;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Sayisal s1 = new Sayisal("omer", 32165, 74.5);
+		Sozel s2 = new Sozel("veli", 864, 87.5);
+
+	}
+
+	public static <T extends Student> void hesapla(T std) {
+		std.donem_ortalamasi();
+
+}

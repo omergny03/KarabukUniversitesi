@@ -1,0 +1,16 @@
+package Generic_2;
+
+public class Yazdir<T> {
+	T[] dizi;
+
+	public Yazdir(T[] dizi) {
+		this.dizi = dizi;
+	}
+
+	public void run() {
+		for (T t : dizi) {
+			System.out.println(t);
+		}
+	}
+
+}

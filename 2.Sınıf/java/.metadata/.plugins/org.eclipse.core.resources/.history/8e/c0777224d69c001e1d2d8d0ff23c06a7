@@ -1,0 +1,21 @@
+package Soru;
+
+import java.util.ArrayList;
+
+public class Main {
+
+	public static void main(String[] args) {
+		MyList<Integer> liste = new MyList<Integer>();
+		liste.add(10);
+		liste.add(20);
+		liste.add(30);
+		liste.add(40);
+		liste.add(50);
+		liste.add(60);
+
+		ArrayList<String> dizi = new ArrayList<String>();
+		dizi.add("ömer");
+		
+	}
+
+}

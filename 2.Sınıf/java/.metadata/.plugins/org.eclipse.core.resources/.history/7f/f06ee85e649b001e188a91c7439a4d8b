@@ -1,0 +1,12 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+     
+		Test<Integer,String,Character> test = new Test<>(10,"asfa0");
+	    System.out.println(test.toString());
+	    
+	
+	}
+
+}

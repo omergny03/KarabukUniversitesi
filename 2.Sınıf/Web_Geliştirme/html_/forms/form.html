@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="index.php">
+      <div>
+        <label for="ad">Ad</label> <br />
+        <input type="text" id="ad" />
+      </div>
+
+      <div>
+        <label for="soyad">Soyad</label> <br />
+        <input type="text" name="" id="soyad" />
+      </div>
+
+      <div>
+        <p>
+          <mark> En sevdiğiniz web geliştirme dili </mark>
+        </p>
+        <label for="html">HTML</label>
+        <input type="radio" name="programlama" id="html" />
+
+        <!-- name içine aynı ismi yazarsak aynı grupta olur ve sadece  bir tanesini seçebiliriz -->
+
+        <label for="css">CSS</label>
+        <input type="radio" name="programlama" id="css" />
+      </div>
+
+      <div>
+        <label for="cities">Şehir</label>
+        <select name="" id="cities">
+          <option value="03">Afyon</option>
+          <option value="35">İzmir</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="mail">Mail</label> <br />
+        <input type="email" id="mail" />
+      </div>
+
+      <button type="submit">Kaydet</button>
+      <button type="reset">reset</button>
+    </form>
+  </body>
+</html>

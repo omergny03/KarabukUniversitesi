@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.concurrent.atomic.AtomicIntegerArray"/>
+    <fullyQualifiedTypeName name="firstPackage.string"/>
+    <fullyQualifiedTypeName name="java.text.AttributedString"/>
+    <fullyQualifiedTypeName name="ArabaFarbrikası"/>
+    <fullyQualifiedTypeName name="kart"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="Out.In"/>
+    <fullyQualifiedTypeName name="Family"/>
+    <fullyQualifiedTypeName name="Out1.In1"/>
+    <fullyQualifiedTypeName name="KacakException"/>
+    <fullyQualifiedTypeName name="Control"/>
+    <fullyQualifiedTypeName name="javax.print.attribute.SetOfIntegerSyntax"/>
+    <fullyQualifiedTypeName name="java.time.Year"/>
+    <fullyQualifiedTypeName name="ServiceControl"/>
+    <fullyQualifiedTypeName name="Animal.IAnimal"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="Printer.IColoredPrint"/>
+    <fullyQualifiedTypeName name="Printer.CanonProfessional"/>
+    <fullyQualifiedTypeName name="Printer.CanonOffice"/>
+    <fullyQualifiedTypeName name="Printer.IFax"/>
+    <fullyQualifiedTypeName name="Printer.IScan"/>
+    <fullyQualifiedTypeName name="Printer.CanonBasic"/>
+    <fullyQualifiedTypeName name="IService"/>
+    <fullyQualifiedTypeName name="ControlService"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="Problem.Problem.Matematik"/>
+    <fullyQualifiedTypeName name="Problem.Problem.Fizik"/>
+    <fullyQualifiedTypeName name="java.lang.Character"/>
+    <fullyQualifiedTypeName name="Soru.MyList"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+</qualifiedTypeNameHistroy>

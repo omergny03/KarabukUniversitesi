@@ -1,0 +1,46 @@
+package Soru;
+
+public class MyList<T> {
+
+	T[] array;
+
+	public MyList() {
+		this.array = (T[]) new Object[10];
+	}
+
+	public MyList(int capacity) {
+		this.array = (T[]) new Object[capacity];
+	}
+
+	public void add(T obj) {
+		int i = 0;
+		while (array[i] != null) {
+			i++;
+		}
+		array[i] = obj;
+	}
+
+	public T get(int x) {
+		return (T) array[x];
+	}
+
+	public int size() {
+		int i = 0;
+		while (array[i] != null) {
+			i++;
+		}
+		return i;
+	}
+
+	public int getCapacity() {
+		int i = 0;
+		while (array[i] != null) {
+			i++;
+		}
+		int k = 0;
+		while (array[i] == null) {
+			k++;
+		}
+		return i + k;
+	}
+}
